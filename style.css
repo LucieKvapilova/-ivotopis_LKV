@@ -25,6 +25,10 @@ h2 {
     padding-bottom: 10px;
 }
 
+p {
+    line-height: 1.5;
+}
+
 /* Menu */
 .menu {
     background-color: #114B5F;
@@ -63,6 +67,7 @@ header {
     background-color: #028090;
     margin: 0;
     padding: 50px 150px 50px 150px;
+    color: #e1fcfd;
 }
 
 
@@ -77,6 +82,13 @@ header {
     padding: 50px 150px 50px 150px; 
 }
 
+.hobby {
+    margin: 0;
+    padding: 50px 150px 80px 150px;
+    text-align: left;
+}
+
+
 em {
     font-weight: bold;
 }
@@ -88,8 +100,10 @@ td {
 }
 
 th {
-    font-size: 18px;
+    font-size: 16px;
 }
+
+
 
 /* Tabulka - Zaměstnání */
 .tabulka-zamestnani {
@@ -97,17 +111,22 @@ th {
     text-align: justify;
 }
 
+.tabulka-zamestnani th {
+    color: #e1fcfd;
+}
+
 .tabulka-zamestnani td {
     border-top: 1px white dotted;
+    padding: 10px 0 10px 0;
 }
 
 
 .tab-obdobi {
-    width: 8%;
+    width: 10%;
 }
 
 .tab-zamestnavatel {
-    width: 10%;
+    width: 15%;
 }
 
 
@@ -130,7 +149,7 @@ th {
 }
 
 .tab-skola {
-    width: 17%;
+    width: 25%;
 }
 
 .text-white {
@@ -143,8 +162,13 @@ th {
     color: #028090;
 }
 
+.poznamky {
+    font-style: italic;
+}
+
 .cell-center {
     text-align: center;
+    font-weight: bold;
 }
 
 .fotogalerie {
@@ -194,12 +218,25 @@ th {
 
 .omne img {
     border: 2px white solid;
+    border-radius: 50%;
+    width: 250px;
+}
+
+.foto-hobby1 {
+    border: 2px darkcyan solid;
     border-radius: 2%;
     width: 250px;
 }
 
 .foto-skola {
     border: 2px darkcyan solid;
-    border-radius: 2%;
-    width: 250px;
+    border-radius: 50%;
+    width: 150px;
 }
+
+.foto-hobby1 {
+    border: 2px darkcyan solid;
+    border-radius: 50%;
+    width: 200px;
+}
+
