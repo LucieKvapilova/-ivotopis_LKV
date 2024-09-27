@@ -54,8 +54,18 @@ p {
 
 a:hover {
     background-color: #028090;
-    
+}
 
+a:focus {
+    background-color: #028090;
+}
+
+a:active {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: aqua;
 }
 
 header {
@@ -88,6 +98,25 @@ header {
     text-align: left;
 }
 
+.fotogalerie {
+    background-color: #028090;
+    text-align: center;
+    padding: 50px 0 50px 0;
+    color: #e1fcfd;
+    margin: 0;
+}
+
+.fotogalerie p {
+    padding: 20px 150px 20px 150px;
+}
+
+.kontakt {
+    background-color: #114B5F;
+    color: #e1fcfd;
+    margin: 0;
+    padding: 20px 150px 30px 150px;
+    text-align: center;
+}
 
 em {
     font-weight: bold;
@@ -171,13 +200,6 @@ th {
     font-weight: bold;
 }
 
-.fotogalerie {
-    background-color: #028090;
-    text-align: center;
-    padding: 20px;
-    padding-bottom: 50px;
-    color: #e1fcfd;
-}
 
 .fotky {
     padding: 10px;
@@ -186,11 +208,6 @@ th {
 }
 
 
-.kontakt {
-    background-color: #114B5F;
-    color: #e1fcfd;
-    margin: 0;
-}
 
 .kontakt a {
     color: #e1fcfd;
@@ -232,11 +249,20 @@ th {
     border: 2px darkcyan solid;
     border-radius: 50%;
     width: 150px;
+    margin-left: 30px;
 }
 
 .foto-hobby1 {
     border: 2px darkcyan solid;
     border-radius: 50%;
     width: 200px;
+    float: right;
+    margin-left: 30px;
+    margin-top: 15px;
 }
 
+.foto-lk {
+    float: left;
+    margin-right: 30px;
+    margin-top: 20px;
+}
